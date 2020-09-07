@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="Car_Fleet_Management.UserControlHome"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Car_Fleet_Management"
+             mc:Ignorable="d" 
+             Width="800" Height="400" Background="#FF78EAEB">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0"  VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="25" Background="#FF78EAEB" Text="Ilość samochodów dostępnych:" />
+        <TextBlock Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="25"  Background="#FF78EAEB" Text="Ilość samochodów w użyciu:" />
+        <TextBlock Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="25"  Background="#FF78EAEB" Text="Tutaj będzie liczba"  />
+        <TextBlock Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="25"  Background="#FF78EAEB" Text="Tutaj będzie liczba" />
+
+    </Grid>
+</UserControl>
